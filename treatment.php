@@ -10,9 +10,9 @@ $emailSubject = 'New Message From Visitor';
 $emailBody = 'Visitor Name: $userName.\n'.
 'Visitor Email: $userEmail.\n'.
 'Visitor Telephone: $userPhone.\n'. 
-'Message: $userMessage.\n'
+'Message: $userMessage.\n';
 
-$emailTo = 'james_ross@outlook.fr'
+$emailTo = 'james_ross@outlook.fr';
 
 $headers = 'From: $emailFrom \r\n';
 $headers .= 'Reply-To: $userEmail \r\n';
