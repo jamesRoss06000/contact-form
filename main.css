@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background: black;
+  text-align: center;
+}
+
+.backgroundImage{
+  min-height: 800px;
+  background-image: url("chinatown-wallpaper.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.marginBox{
+  padding-top: 30px;
+}
+
+.textBox {
+  margin-top: 30px;
+  width: 80%;
+  background-color: black;
+  opacity: .75;
+  border: black 2px solid;
+  border-radius: 15px;
+  margin: auto;
+}
+
+h1 {
+  padding-top: 15px;
+  color: red;
+}
+
+p {
+  padding: 15px;
+  font-size: 22px;
+  color: white;
+}
+
+.formDiv{
+  padding-top: 15px;
+  color: white;
+  width: 80%;
+  margin: auto;
+}
+
+.form {
+  font-size: 18px;
+  font-weight: bolder;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: solid 2px grey;
+  outline: none;
+  color: white;
+  padding: 10px;
+}
+
+::placeholder{
+  color: white;
+}
+
+.border {
+  border: none;
+}
+
+form .submit {
+  background-color: black;
+  opacity: .75;
+  border-color: transparent;
+  border-radius: 15px;
+}
+
+form .submit:hover {
+ cursor: pointer;
+}
