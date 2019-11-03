@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="formDiv">
-      <form action="http://formspree.io/jamesrosscodes@gmail.com">
+      <form action="http://formspree.io/jamesrosscodes@gmail.com" method="post">
         <input type="text" class='form' name="name" id="name" placeholder="Your name" required>
         <input type="email" class='form' name="email" id="email" placeholder="Your email" required>
         <input type="tel" class='form' name="telephone" id="telephone" placeholder="Your cell number" required>
